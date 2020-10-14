@@ -219,6 +219,96 @@ hr.b-dash {
 .slider-next .s_icon{
     padding-left: 45%;
 }
+
+.hello{
+    width: 100%;
+    font-family: "BazarMedium";
+    text-transform: uppercase;
+    text-align: center;
+    color: #F6EDD8;
+    margin: 20px 0;
+}
 /*------------slider ends-------------*/
+
+/*-----------about starts-----------*/
+.about-bg{
+    width: 100%;
+    background-color: #e6e1d0;
+    position: relative;
+}
+
+.about-title{
+    width: 100%;
+    text-align: center;
+    margin: 45px 0;
+    margin-bottom: 0;
+}
+
+.about-title h2{
+    font-family: "BazarMedium";
+    font-size: 90px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px #FCFAF7, 3px 4px #484A4D;
+}
+
+.separator{
+    width: 23%;
+    margin: 0 auto;
+}
+
+.separator img{
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.caption{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    margin-bottom: 30px;
+}
+/*------------about ends-------------*/
+
+/*--------single item starts--------*/
+.single-item{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.item-img img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.item-img img:hover {
+    transform: skew(20deg);
+}
+
+.single-item h4{
+    font-family: 'BazarMedium';
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.single-item .what{
+    text-transform: uppercase;
+}
+
+.single-item .item-details{
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.single-item .item-details a{
+    color: black;
+    text-decoration: underline;
+}
+/*--------single item ends----------*/
+
 
 
