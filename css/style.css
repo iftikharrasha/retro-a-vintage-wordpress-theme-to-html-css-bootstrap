@@ -40,10 +40,7 @@ body {
     color: #434343;
 }
 
-/*----------------------------*\
-	header starts
-\*----------------------------*/
-
+/*------------header starts-------------*/
 .grain-bg {
     background: url(../images/grain.png) repeat;
 }
@@ -76,11 +73,10 @@ body {
 
 .nav-items {
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 50px;
 }
 
 .menu-items{
+	width: 100%;
     margin: 25px 0;
     text-transform: uppercase;
     font-family: 'BazarMedium';
@@ -91,11 +87,11 @@ body {
 }
 
 .ml-10{
-    margin-left: 12%;
+    margin-left: 10%;
 }
 
 .menu-items li{
-    width: 18%;
+    width: 25%;
     font-size: 27px;
     list-style: none;
     float: left;
@@ -116,9 +112,5 @@ body {
 .menu-items li:hover{
     color: #383a3c;
 }
-
-.menu-items li a:hover{
-    color: #383a3c;
-}
-
+/*------------header ends-------------*/
 
