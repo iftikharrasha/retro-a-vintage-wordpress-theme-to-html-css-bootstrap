@@ -64,7 +64,15 @@
     .hello h3{
         font-size: 22px;
     }
-    /*------------about ends-----------*/
+
+    .single-item .item-details {
+        font-size: 14px;
+    }
+	/*------------about ends-----------*/
+	
+	.filter {
+		margin: 10px;
+	}
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
