@@ -38,6 +38,7 @@ body {
     font-size: 16px;
     line-height: 21px;
     color: #434343;
+    position: relative;
 }
 
 /*------------header starts-------------*/
@@ -450,7 +451,7 @@ hr.b-dash {
 .browse .underline p:hover{
     transform: scaleX(1.2);
 }
-/*-----------portfolio ends-------------*/
+/*--------portfolio ends-----------*/
 
 /*-----------blog starts-----------*/
 .blog-bg{
@@ -522,3 +523,149 @@ hr.b-dash {
     text-decoration: none;
     color: #383a3c;
 }
+/*--------blog ends-----------*/
+
+/*-------extra starts-------*/
+.extra-bg{
+    width: 100%;
+    background-color: #4F7B70;
+    position: relative;
+}
+
+.extra-item{
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.extra-item nav .navs{
+    background-color: transparent;
+}
+
+.extra-item nav .navs a{
+    color: #F6EDD8;
+    border: 1px solid #ffffff24;
+}
+
+.extra-item nav .navs .active{
+    background-color: #4c5057;
+    color: #F6EDD8;
+}
+
+.m-top{
+    margin-top: 15px;
+}
+
+.points{
+    list-style: none;
+    line-height: 30px;
+}
+/*--------extra ends-----------*/
+
+/*-------contact starts-------*/
+.contact-bg{
+    width: 100%;
+    background-color: #4c5057;
+    position: relative;
+}
+
+.c_title h2{
+    color: #F6EDD8;
+    text-shadow: 1px 2px #484A4D, 3px 4px #D4CEBF;
+}
+
+.c_cap{
+    color: #F6EDD8;
+}
+
+.contact-form{
+   margin: 20px 0;
+}
+
+.contact-form .form-input{
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 400;
+    width: 100%;
+    padding: 8px;
+    color: #383A3C;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact-form textarea{
+    margin-bottom: 10px;
+    font-weight: 400;
+    width: 100%;
+    padding: 8px;
+    color: #383A3C;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact-form .submit-button{
+    padding: 4px 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact-form .form-input:focus, .contact-form textarea:focus, .contact-form .submit-button:focus{
+    outline: none;
+}
+
+.social-icons{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.social-icons h4 {
+    font-family: 'BazarMedium';
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F6EDD8;
+}
+
+.browse .c_under hr{
+    width: 10%;
+    background: #F6EDD8;
+}
+
+.social-icons{
+    width: 100%;
+}
+
+.social-icons ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-icons ul li{
+    display: inline-block;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    transition: transform .2s linear;
+}
+
+.social-icons ul li:hover{
+    transform: translateY(-10px);
+}
+
+
+.social-icons ul li a{
+    display: inline-block;
+    font-size: 45px;
+    color: #383A3C;
+    background-color: #F5EEE3;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #F5EEE3, inset 0 0 0 4px #383A3C;
+}
+
+.social-icons ul li a i{
+    margin-top: 15px;
+}
+/*--------contact ends--------*/

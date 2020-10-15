@@ -52,7 +52,11 @@
     }
     /*------------slider ends-----------*/
 
-    /*------------about starts-----------*/
+	/*------------about starts-----------*/
+	.section-title h2 {
+		font-size: 70px;
+	}
+
     .about-title h2 {
         font-size: 60px;
     }
@@ -76,6 +80,15 @@
 
 	.blog-details h3 {
 		margin-top: 15px;
+		font-size: 22px;
+	}
+
+	.blog-details h4 {
+		font-size: 10px;
+	}
+
+	.blog-details span a {
+		font-size: 10px;
 	}
 
 	.blog-details p{
