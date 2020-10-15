@@ -420,5 +420,105 @@ hr.b-dash {
     margin-bottom: 10px;
 }
 
+.browse {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.browse a {
+    text-decoration: none;
+}
+
+.browse .underline hr{
+    width: 5%;
+    margin: 0 auto;
+    height: 2px;
+    background: #383A3C;
+    margin-bottom: 10px;
+}
+
+.browse .underline p{
+    font-family: "Oswald", serif;
+    text-transform: uppercase; 
+    font-size: 14px;
+    font-weight: 700;
+    color: #383a3c;
+    transition: transform .2s linear;
+}
+
+.browse .underline p:hover{
+    transform: scaleX(1.2);
+}
 /*-----------portfolio ends-------------*/
 
+/*-----------blog starts-----------*/
+.blog-bg{
+    width: 100%;
+    background-color: #e3e0dd;
+    position: relative;
+}
+
+.blog-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-img img{
+    width: 100%;
+    border: 4px solid #FCFAF7;
+    background-color: #FCFAF7;
+    border-radius: 3px;
+}
+
+.blog-details a{
+    text-decoration: none;
+}
+
+.blog-details h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #434343;
+}
+
+.blog-details h4{
+    font-family: "Oswald", serif;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline;
+}
+
+.blog-details h4{
+    font-family: "Oswald", serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blog-details span{
+    float: right;
+}
+
+.blog-details span a{
+    text-decoration: none;
+    font-family: "Oswald", serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #434343;
+}
+
+.blog-details p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.blog-details .more {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    text-decoration: none;
+    color: #383a3c;
+}
