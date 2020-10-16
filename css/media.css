@@ -79,7 +79,7 @@
 	}
 
 	.blog-details h3 {
-		margin-top: 15px;
+		margin-top: 20px;
 		font-size: 22px;
 	}
 
@@ -92,6 +92,15 @@
 	}
 
 	.blog-details p{
+		font-size: 14px;
+	}
+
+	.nav-link {
+		font-size: 12px;
+	}
+	
+	.points {
+		padding-left: 5px;
 		font-size: 14px;
 	}
 }
@@ -113,6 +122,11 @@
 	}
 	.ml-10 {
 		margin-left: 0;
+	}
+
+	.blog-details h3 {
+		margin-top: 20px;
+		font-size: 22px;
 	}
 	/*------------header ends-------------*/
 }

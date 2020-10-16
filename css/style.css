@@ -532,9 +532,12 @@ hr.b-dash {
     position: relative;
 }
 
-.extra-item{
-    padding-top: 30px;
+.feature-items{
     padding-bottom: 45px;
+}
+
+.f_item{
+    margin-top: 20px;
 }
 
 .extra-item nav .navs{
